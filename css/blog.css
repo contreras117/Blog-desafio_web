@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  font-family: 'Open Sans', Arial;
+}
+
+header{
+  background: #244457;
+  position: relative;
+}
+
+.menu{
+ position: absolute;
+ right: 0;
+ height: 100%;
+}
+
+.menu, .menu li, .logotipo
+{
+  display: inline-block;
+}
+
+.menu li a
+{
+  color:white;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+}
+
+.menu li a:not(.button){
+  padding: 15px 13px;
+  border-top: 5px solid transparent;
+  
+}
+
+.menu li a:hover{
+  border-color: green;
+}
+
+.menu ul{
+  margin: 0;
+}
+
+.logotipo{
+  margin: 8px;
+}
+
+.button{
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  background: #fd342e;
+  cursor: pointer;
+}
+
+.button:hover{
+  background: green;
+}
+
+.portada{
+  width: 100%;
+  background: lightgray;
+}
+
+.contenedor{
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.busqueda{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.lupa{
+  background: #222222;
+  color: white;
+}
+
+.background{
+  background: url(../Media/Solo.jpg);
+  background-size: cover;
+  height: 640px;
+}
+
+p{
+  margin: 0;
+}
