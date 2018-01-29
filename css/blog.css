@@ -8,6 +8,11 @@ header{
   position: relative;
 }
 
+h2{
+  border-bottom: 1px solid lightgray;
+  margin: 0;
+}
+
 .menu{
  position: absolute;
  right: 0;
@@ -83,6 +88,33 @@ header{
   background: url(../Media/Solo.jpg);
   background-size: cover;
   height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.articulo-portada{
+  background: rgba(240,240,240,0.7);
+  width: 50%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+.avatar{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.contenido{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contenido article{
+  display: inline-block;
+  width: auto;
 }
 
 p{
