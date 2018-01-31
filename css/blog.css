@@ -33,6 +33,7 @@ span{
   margin: 0;
   display: flex;
   height: inherit;
+<<<<<<< HEAD
 }
 
 .menu li{
@@ -200,6 +201,7 @@ span{
   display: flex;
   justify-content: center;
   padding: 10px 0 50px 0;
+<<<<<<< HEAD
 }
 
 .footer span, .footer a{
@@ -211,7 +213,6 @@ span{
 .footer a{
   text-decoration:none;
 }
-
 .footer a:not(:first-of-type){
   background: lightgray;
   border: 0.3px solid #afafaf;
