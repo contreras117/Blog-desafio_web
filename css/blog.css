@@ -6,7 +6,6 @@ body{
 
 header{
   background: #244457;
-
   height: 50px;
   padding: 0 10px;
   display: flex;
@@ -33,7 +32,6 @@ span{
   margin: 0;
   display: flex;
   height: inherit;
-<<<<<<< HEAD
 }
 
 .menu li{
@@ -201,7 +199,6 @@ span{
   display: flex;
   justify-content: center;
   padding: 10px 0 50px 0;
-<<<<<<< HEAD
 }
 
 .footer span, .footer a{
