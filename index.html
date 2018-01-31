@@ -4,26 +4,30 @@
   <meta charset="UTF-8">
   <title>Primer desafio</title>
   <link rel="stylesheet" href="css\blog.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400" rel="stylesheet">
 </head>
 <body>
   <header>
-    <a href="" class="logotipo"><img src="https://static.platzi.com/static/images/logos/platzi.3cae3cffd5ef.png" alt="logo"></a>
-    <nav class="menu">
-      <ul>
-        <li><a href="">Cursos</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">FAQ</a></li>
-        <li><a href="">Horarios</a></li>
-        <li><a href="">Live</a></li>
-        <li><a href="" class="button">Inicia sesión</a></li>
-      </ul>
-    </nav>
+    <a href="https://platzi.com" class="logotipo">
+      <img src="https://static.platzi.com/static/images/logos/platzi.3cae3cffd5ef.png" alt="logo" height="30">
+    </a>
+    <div class="menu">
+      <nav>
+        <ul>
+          <li><a href="">Cursos</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Horarios</a></li>
+          <li><a href="">Live</a></li>
+        </ul>
+      </nav>
+      <a href="" class="button">Inicia sesión</a>
+    </div>   
   </header>
   <section class="portada">
     <div class="contenedor">
       <form action="" class="busqueda">
-        <input type="text" required placeholder="Buscar ..." name="buscar" id="buscar"/>
+        <input type="text" required placeholder="Buscar ..." name="buscar" id="buscar" class="caja_busqueda"/>
         <input type="submit" class="lupa" value="⌕">
       </form>
       <div class="background">
@@ -163,7 +167,15 @@
     </article>
   </section>
   <footer>
-
+    <div class="contenedor footer">
+      <span>Pagina 1 de 23</span>
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">Siguiente ></a>
+      <a href="#">Última página >></a>
+    </div>
   </footer>
 </body>
 </html>
