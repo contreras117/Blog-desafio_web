@@ -15,7 +15,7 @@
       <nav>
         <ul>
           <li><a href="">Cursos</a></li>
-          <li><a href="">Blog</a></li>
+          <li><a href="" class="activo" >Blog</a></li>
           <li><a href="">FAQ</a></li>
           <li><a href="">Horarios</a></li>
           <li><a href="">Live</a></li>
@@ -24,158 +24,213 @@
       <a href="" class="button">Inicia sesión</a>
     </div> 
   </header>
-  <section class="portada">
-    <div class="contenedor">
-      <form action="" class="busqueda">
-        <input type="text" required placeholder="Buscar ..." name="buscar" id="buscar" class="caja_busqueda"/>
-        <input type="submit" class="lupa" value="⌕">
-      </form>
-      <div class="background">
-        <div class="articulo-portada">
-          <h2>Consejos que aumentarán tu efectividad al trabajar desde casa</h2>
-          <div class="articulo_info">
-            <figure class="autor">
-                <img src="Media/avatar.png" alt="Avatar" class="avatar" />
-                <figcaption>Leticia Ferrer Mur</figcaption>
-            </figure>
-            <span>abril 15 2016</span>
-          </div>
+  <section class="blog">
+    <form action="" class="busqueda">
+      <input type="text" required placeholder="Buscar ..." name="buscar" id="buscar" class="caja_busqueda"/>
+      <input type="submit" class="lupa" value="⌕">
+    </form>
+    <article class="portada">
+      <img src="Media/Portada.jpg" alt="Imagen" width="1000">
+      <div class="descripcion">
+        <h1>Consejos que aumentarán tu efectividad al trabajar desde casa</h1>
+        <div class="autor">
+          <p>
+            <img src="Media/avatar.png" alt="Avatar" class="avatar" height="35" width="35">
+            <span>Leticia Ferrer Mur</span>
+          </p>
+          <span>abril 15 2016</span>
         </div>
       </div>
-    </div>
-  </section >
-  <section class="contenido contenedor">
-    <article class="articulo">
-      <img src="Media/namespace.jpg" alt="Namespace C#">
-      <h3>Cómo definir un Namespace en C#</h3>
-      <div class="articulo_info">
-        <span>Juan Castro Lurita</span>
-        <span>abril 13 2016</span>
-      </div>
     </article>
-    <article class="articulo">
-      <img src="Media/facebookF8-blog.jpg" alt="Facebook F8">
-      <h3>Todo lo que Facebook anunció en F8</h3>
-      <div class="articulo_info">
-        <span>winiberto</span>
-        <span>abril 12 2016</span>
-      </div>
-    </article>
-    <article class="articulo">
-      <img src="Media/Android-Studio-2-blog.jpg" alt="Android studio">
-      <h3>Lo nuevo en Android Studio 2.0</h3>
-      <div class="articulo_info">
-        <span>Uriel Ramirez</span>
-        <span>abril 12 2016</span>
-      </div>
-    </article>
-    <article class="articulo">
-      <img src="Media/React-15-imag-blog.jpg" alt="React">
-      <h3>Lo que tienes que saber sobre React 15</h3>
-      <div class="articulo_info">
-        <span>Leonidas Esteban</span>
-        <span>abril 11 2016</span>
-      </div>
-    </article>
-    <article class="articulo">
-      <img src="Media/backg.png" alt="Go">
-      <h3>Paso a paso: Cómo trabajar con JSON en Go</h3>
-      <div class="articulo_info">
-        <span>Juan Castro Lurita</span>
-        <span>abril 8 2016</span>
-      </div>
-    </article>
-    <article class="articulo">
-      <img src="Media/5-libros.jpg" alt="Libros">
-      <h3>5 libros que deberías leer para aprender Diseño de Producto</h3>
-      <div class="articulo_info">
-        <span>Luis "Luio" López Mendez</span>
-        <span>abril 7 2016</span>
-      </div>
-    </article>
-    <article class="articulo">
-      <img src="Media/horario_blog.jpg" alt="Horario">
-      <h3>Platzi Stream cambia de horario esta semana</h3>
-      <div class="articulo_info">
-        <span>Anna Heim</span>
-        <span>abril 5 2016</span>
-      </div>
-    </article>
-    <article class="articulo">
-      <img src="Media/pexels-photo-45111.jpg" alt="Tarjeta">
-      <h3>5 recomendaciones para proteger datos personales en tu negocio</h3>
-      <div class="articulo_info">
-        <span>German Realpe Delgado</span>
-        <span>marzo 28 2016</span>
-      </div>
-    </article>
-    <article class="articulo">
-      <img src="Media/rubygems-blog.webp" alt="Ruby">
-      <h3>10 gemas para desarrollar con Ruby on Rails</h3>
-      <div class="articulo_info">
-        <span>Juean Castro Lurita</span>
-        <span>marzo 17 2016</span>
-      </div>
-    </article>
-    <article class="articulo">
-      <img src="Media/black-and-white-city-man-people-1.jpg" alt="Blanco y negor">
-      <h3>Lo que tienes que saber sobre Google Analytics 360 Suite</h3>
-      <div class="articulo_info">
-        <span>Anna Heim</span>
-        <span>marzo 16 2016</span>
-      </div>
-    </article>
-    <article class="articulo">
-      <img src="Media/adobexd-blog.jpg" alt="Adobe Experience">
-      <h3>Primeras impresiones de Adobe Experience Design</h3>
-      <div class="articulo_info">
-        <span>Jennifer López</span>
-        <span>marzo 15 2016</span>
-      </div> 
-    </article>
-    <article class="articulo">
-      <img src="Media/rorhistoria.png" alt="Ruby on rails">
-      <h3>El origen de Ruby on Rails, el framework orientado a la felicidad</h3>
-      <div class="articulo_info">
-          <span>Yare Saavedra</span>
-          <span>marzo 14 2016</span>
-      </div>
-    </article>
-    <article class="articulo">
-      <img src="Media/iconos-blog.webp" alt="Iconografia">
-      <h3>Aprende a crear la iconografia perfecta</h3>
-      <div class="articulo_info">
-        <span>Jennifer López</span>
-        <span>marzo 11 2016</span>
-      </div>
-    </article>
-    <article class="articulo">
-      <img src="Media/mktmusicos-blog.jpg" alt="Musicos">
-      <h3>Tips de Marketing digital para músicos</h3>
-      <div class="articulo_info">
-        <span>Armando Sarabia</span>
-        <span>marzo 7 2016</span>
-      </div>
-    </article>
-    <article class="articulo">
-      <img src="Media/3Dtouch-blog.jpg" alt="3D touch">
-      <h3>Agrega 3D Touch y Force Touch a tus proyectos web</h3>
-      <div class="articulo_info">
-        <span>Uriel Ramirez</span>
-        <span>marzo 3 2016</span>
-      </div>
-    </article>
-  </section>
-  <footer>
-    <div class="contenedor footer">
+    <section class="blog-items">
+        <article class="articulo">
+            <img src="Media/namespace.jpg" alt="Namespace C#" >
+            <h3>Cómo definir un Namespace en C#</h3>
+            <div class="autor">
+              <p>
+                  <img src="Media/avatar.png" alt="Avatar" class="avatar" height="35" width="35">
+                  <span>Juan Castro Lurita</span>
+              </p>
+              <span>abril 13 2016</span>
+            </div>
+          </article>
+          <article class="articulo">
+            <img src="Media/facebookF8-blog.jpg" alt="Facebook F8" >
+            <h3>Todo lo que Facebook anunció en F8</h3>
+            <div class="autor">
+              <p>
+                  <img src="Media/avatar.png" alt="Avatar" class="avatar" height="35" width="35">
+                  <span>winiberto</span>
+              </p>
+              <span>abril 12 2016</span>
+            </div>
+          </article>
+          <article class="articulo">
+            <img src="Media/Android-Studio-2-blog.jpg" alt="Android studio" >
+            <h3>Lo nuevo en Android Studio 2.0</h3>
+            <div class="autor">
+              <p>
+                <img src="Media/avatar.png" alt="Avatar" class="avatar" height="35" width="35">
+                <span>Uriel Ramirez</span>
+              </p>
+              <span>abril 12 2016</span>
+            </div>
+          </article>
+          <article class="articulo">
+            <img src="Media/React-15-imag-blog.jpg" alt="React" >
+            <h3>Lo que tienes que saber sobre React 15</h3>
+            <div class="autor">
+              <P>
+                <img src="Media/avatar.png" alt="Avatar" class="avatar" height="35" width="35">
+                <span>Leonidas Esteban</span>
+              </P>
+              <span>abril 11 2016</span>
+            </div>
+          </article>
+          <article class="articulo">
+            <img src="Media/backg.png" alt="Go" >
+            <h3>Paso a paso: Cómo trabajar con JSON en Go</h3>
+            <div class="autor">
+              <P>
+                <img src="Media/avatar.png" alt="Avatar" class="avatar" height="35" width="35">
+                <span>Juan Castro Lurita</span>
+              </P>
+              <span>abril 8 2016</span>
+            </div>
+          </article>
+          <article class="articulo">
+            <img src="Media/5-libros.jpg" alt="Libros" >
+            <h3>5 libros que deberías leer para aprender Diseño de Producto</h3>
+            <div class="autor">
+              <P>
+                <img src="Media/avatar.png" alt="Avatar" class="avatar" height="35" width="35">
+                <span>Luis "Luio" López Mendez</span>
+              </P>
+              <span>abril 7 2016</span>
+            </div>
+          </article>
+          <article class="articulo">
+            <img src="Media/horario_blog.jpg" alt="Horario" >
+            <h3>Platzi Stream cambia de horario esta semana</h3>
+            <div class="autor">
+              <P>
+                <img src="Media/avatar.png" alt="Avatar" class="avatar" height="35" width="35">
+                <span>Anna Heim</span>
+              </P>
+              <span>abril 5 2016</span>
+            </div>
+          </article>
+          <article class="articulo">
+            <img src="Media/pexels-photo-45111.jpg" alt="Tarjeta" >
+            <h3>5 recomendaciones para proteger datos personales en tu negocio</h3>
+            <div class="autor">
+              <P>
+                <img src="Media/avatar.png" alt="Avatar" class="avatar" height="35" width="35">
+                <span>German Realpe Delgado</span>
+              </P>
+              <span>marzo 28 2016</span>
+            </div>
+          </article>
+          <article class="articulo">
+            <img src="Media/rubygems-blog.webp" alt="Ruby" >
+            <h3>10 gemas para desarrollar con Ruby on Rails</h3>
+            <div class="autor">
+              <P>
+                <img src="Media/avatar.png" alt="Avatar" class="avatar" height="35" width="35">
+                <span>Juean Castro Lurita</span>
+              </P>
+              <span>marzo 17 2016</span>
+            </div>
+          </article>
+          <article class="articulo">
+            <img src="Media/black-and-white-city-man-people-1.jpg" alt="Blanco y negor" >
+            <h3>Lo que tienes que saber sobre Google Analytics 360 Suite</h3>
+            <div class="autor">
+              <P>
+                <img src="Media/avatar.png" alt="Avatar" class="avatar" height="35" width="35">
+                <span>Anna Heim</span>
+              </P>
+              <span>marzo 16 2016</span>
+            </div>
+          </article>
+          <article class="articulo">
+            <img src="Media/adobexd-blog.jpg" alt="Adobe Experience" >
+            <h3>Primeras impresiones de Adobe Experience Design</h3>
+            <div class="autor">
+              <P>
+                <img src="Media/avatar.png" alt="Avatar" class="avatar" height="35" width="35">
+                <span>Jennifer López</span>
+              </P>
+              <span>marzo 15 2016</span>
+            </div> 
+          </article>
+          <article class="articulo">
+            <img src="Media/rorhistoria.png" alt="Ruby on rails" >
+            <h3>El origen de Ruby on Rails, el framework orientado a la felicidad</h3>
+            <div class="autor">
+              <P>
+                <img src="Media/avatar.png" alt="Avatar" class="avatar" height="35" width="35">
+                <span>Yare Saavedra</span>
+              </P>
+                <span>marzo 14 2016</span>
+            </div>
+          </article>
+          <article class="articulo">
+            <img src="Media/iconos-blog.webp" alt="Iconografia" >
+            <h3>Aprende a crear la iconografia perfecta</h3>
+            <div class="autor">
+              <P>
+                <img src="Media/avatar.png" alt="Avatar" class="avatar" height="35" width="35">
+                <span>Jennifer López</span>
+              </P>
+              <span>marzo 11 2016</span>
+            </div>
+          </article>
+          <article class="articulo">
+            <img src="Media/mktmusicos-blog.jpg" alt="Musicos" >
+            <h3>Tips de Marketing digital para músicos</h3>
+            <div class="autor">
+              <P>
+                <img src="Media/avatar.png" alt="Avatar" class="avatar" height="35" width="35">
+                <span>Armando Sarabia</span>
+              </P>
+              <span>marzo 7 2016</span>
+            </div>
+          </article>
+          <article class="articulo">
+            <img src="Media/3Dtouch-blog.jpg" alt="3D touch" >
+            <h3>Agrega 3D Touch y Force Touch a tus proyectos web</h3>
+            <div class="autor">
+              <P>
+                <span>Uriel Ramirez</span>
+              </P>
+              <span>marzo 3 2016</span>
+            </div>
+          </article>
+    </section>
+    <section class="paginador">
       <span>Pagina 1 de 23</span>
-      <a href="#">1</a>
-      <a href="#">2</a>
-      <a href="#">3</a>
-      <a href="#">4</a>
-      <a href="#">Siguiente ></a>
-      <a href="#">Última página >></a>
-    </div>
-  </footer>
+      <ul>
+        <li>
+          <a href="#" class="selected">1</a>
+        </li>
+        <li>
+          <a href="#">2</a>
+        </li>
+        <li>
+          <a href="#">3</a>
+        </li>
+        <li>
+          <a href="#">4</a>
+        </li>
+        <li>
+          <a href="#">Siguiente ></a>
+        </li>
+        <li>
+          <a href="#">Última página >></a>
+        </li>
+      </ul>
+    </section>
+  </section>
 </body>
 </html>

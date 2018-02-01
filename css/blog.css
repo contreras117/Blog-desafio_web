@@ -17,6 +17,12 @@ nav{
   height: inherit;
 }
 
+h1{
+  margin: 0;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
 span{
   padding: 0;
   display: inline;
@@ -30,16 +36,17 @@ span{
 
 .menu ul{
   margin: 0;
-  display: flex;
   height: inherit;
+  display: flex;
 }
 
 .menu li{
+  color: white;
   list-style: none;
   display: flex;
   align-items: center;
-  color: white;
   height: inherit;
+  
 }
 
 .menu li:after{
@@ -55,14 +62,18 @@ span{
 {
   color:white;
   text-decoration: none;
-  display: flex;
-  align-items: center;
   padding: 0 10px;
   height: inherit;
+  display: flex;
+  align-items: center;
 }
 
 .menu li a:hover{
   box-shadow: inset 0 5px 0 red;
+}
+
+.activo{
+  box-shadow: inset 0 5px 0 green;
 }
 
 .button{
@@ -82,15 +93,56 @@ span{
   background: green;
 }
 
-.portada{
-  width: 100%;
-  background: lightgray;
+.blog{
+  width: 1000px;
+  margin: auto;
 }
 
-.contenedor{
-  width: 50%;
-  margin: auto;
+.portada{
   position: relative;
+  margin-bottom: 20px;
+}
+
+.portada .descripcion{
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  padding: 20px;
+}
+
+.avatar{
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.autor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  padding-top: 15px;
+  border-top: 1px solid gray;
+}
+
+.autor p{
+  margin: 0;
+}
+
+.blog-items{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.articulo{
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.articulo img:not(.avatar){
+  width: 300px;
+  height: 200px;
 }
 
 .busqueda{
@@ -117,101 +169,29 @@ span{
 
 .caja_busqueda, .lupa{
   border-radius: 5px;
-  
 }
 
-.background{
-  background: url(../Media/Portada.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  padding-top: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
 
-.articulo-portada{
-  background: rgba(240,240,240,0.7);
-  width: 50%;
-  margin-left: 2%;
-  margin-bottom: 3%;
-  padding: 20px
-  
-}
 
-.articulo-portada h2{
-  color: #606060;
-  font-size: 40px;
-  margin: 0;
-  padding-bottom: 20px;
-  border-bottom: 1px solid lightgray;
-}
 
-.autor{
-  margin: 0;
-}
 
-.autor figcaption{
-  display: inline;
-  vertical-align: 50%;
-}
 
-.articulo_info{
-  display: flex;
-  justify-content: space-between;
-  font-size: 14px;
-  color: #808080;
-}
-
-.avatar{
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  margin-right: 15px;
-}
-
-.contenido{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.articulo{
-  display: inline-block;
-  width: 31%;
-  margin: 20px 0 10px 0;
-}
-
-.articulo img{
-  width: 100%;
-  height: auto;;
-}
-
-.articulo h3{
-  color: #505050;
-  margin: 10px 0 0 0;
-  padding-bottom: 20px;
-  border-bottom: 1px solid lightgray;
-}
-
-.footer{
+.paginador{
   display: flex;
   justify-content: center;
   padding: 10px 0 50px 0;
 }
 
-.footer span, .footer a{
+.paginador span, .paginador a{
   padding: 5px;
   margin: 10px;
   color: #222222;
 }
 
-.footer a{
+.paginador a{
   text-decoration:none;
 }
-.footer a:not(:first-of-type){
+.paginador a:not(:first-of-type){
   background: lightgray;
   border: 0.3px solid #afafaf;
-
 }
