@@ -93,6 +93,10 @@ span{
   background: green;
 }
 
+.fondo_portada{
+  background: lightgray;
+}
+
 .blog{
   width: 1000px;
   margin: auto;
@@ -171,27 +175,33 @@ span{
   border-radius: 5px;
 }
 
-
-
-
-
-
 .paginador{
   display: flex;
   justify-content: center;
-  padding: 10px 0 50px 0;
+  align-items: center;
+  margin: 20px 0;
 }
 
-.paginador span, .paginador a{
-  padding: 5px;
-  margin: 10px;
-  color: #222222;
+.paginador ul{
+  display: flex;
+  justify-content: space-between;
+
+}
+.paginador li{
+  list-style: none;
+  margin: 0 5px;
 }
 
 .paginador a{
-  text-decoration:none;
+  text-decoration: none;
+  border: 0.5px solid gray;
+  background:  #eaeaea;;
+  padding: 10px;
+  color: #515151;
 }
-.paginador a:not(:first-of-type){
-  background: lightgray;
-  border: 0.3px solid #afafaf;
+.paginador a.selected{
+  background: transparent;
+  border: none;
 }
+
+
